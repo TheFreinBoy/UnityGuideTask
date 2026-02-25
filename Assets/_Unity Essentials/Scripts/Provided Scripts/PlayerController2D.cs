@@ -30,6 +30,7 @@ public class PlayerController2D : MonoBehaviour
 
     void Update()
     {
+   
         // Get player input from keyboard or controller
         Vector2 moveInput = moveAction.action.ReadValue<Vector2>();
         
